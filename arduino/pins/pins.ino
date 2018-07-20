@@ -8,11 +8,15 @@
 
 void setup() {
   Serial.begin(115200);
+
 }
 
 
 
 void loop() {
+int reading = digitalRead(BUTTONA);
+Serial.println(reading);
 
+  
   
 }

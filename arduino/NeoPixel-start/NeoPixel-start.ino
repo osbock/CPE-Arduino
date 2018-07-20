@@ -25,6 +25,8 @@ void setup() {
 
 
 void loop() {
+  int reading = analogRead(A8);
+  Serial.println(reading);
 
   
 }
